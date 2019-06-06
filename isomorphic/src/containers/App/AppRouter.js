@@ -4,6 +4,7 @@ import asyncComponent from '../../helpers/AsyncFunc';
 import customRoutes from '../../customApp/router';
 
 const routes = [
+
   {
     path: '',
     component: asyncComponent(() => import('../Widgets/index.js')),
